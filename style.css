@@ -1,39 +1,58 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .testimonial-slider-container {
-    max-width: 600px;
-    margin: auto;
-  }
-  
-  .testimonial-slider {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 200px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .testimonial {
-    display: none;
-    position: absolute;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .testimonial p.quote {
-    margin: 0;
-  }
+body{
+  background-color: grey;
+}
+
+
+.testimonial{
+  text-align: center;
+  color: grey;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto ;
+  padding: 30px;
+  border-right: 1px solid black;
+}
+.fcontainer{
+  color: rgb(62, 60, 60);
+  margin-left: 20%;
+  width: 60%;
+  height: 70vh;
+  background-color: rgb(73, 72, 75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fcontainer button{
+  width: 1;
+  padding: 5px 10px;
+  position: absolute;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  background-color: rgb(55, 14, 136);
+  cursor: pointer;
+}
+.fcontainer button:hover{
+  background-color: rgba(0, 0, 0, 0.453);
+  border: 0;
+}
+.testimonial img{
+  width: 25%;
+  height: 70%;
+  border-radius:50%;
+}
+#prev{
+  right:17%;
+}
+#next{
+  left:17%;
+}
   
   .testimonial p.author {
     margin-top: 10px;
